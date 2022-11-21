@@ -1,0 +1,450 @@
+/* Syntax- here p is selector, color is property and blue is value. */
+p{
+    color:red;
+   
+}
+/* Comment in CSS */
+/* Backgrounds in CSS */
+#tashi{
+    background-color: aqua;
+    background-image: url(https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2020-10/purposeoflife.jpg?itok=G_3RzDjy);
+    background-size: cover;
+    background-repeat: none;
+    opacity: 0.5;
+    background-attachment: scroll;
+    background-position: center;
+}
+/* CSS border style, width and color */
+#border{
+    border-style: dotted;
+    border-color: yellow;
+    border-width: 5px;
+}
+/* CSS margin top,bottom,right and left */
+#margin{
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
+
+/* CSS padding top, right, bottom and left */
+#padding{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+/* CSS height and width */
+.heightwidth{
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+
+}
+/* CSS Box Model */
+#boxmodel{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    
+}
+
+/* CSS Outline */
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+
+/* CSS Text */
+.text{
+    text-align: justify;
+    text-decoration: solid;
+    text-decoration-color:blue;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-transform: uppercase;
+    letter-spacing: .01rem;
+    line-height: 1cm;
+    text-indent: 50px;
+    white-space: wrap;
+    word-spacing: 2px;
+    text-shadow: 1px 1px  black;
+}
+
+/* CSS Font */
+#font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Google Font */
+#googlefont{
+    font-size: 20px;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+/* CSS Icon */
+#icon{
+    font-size: 50px;
+    color: brown;
+
+}
+/* CSS Links */
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;
+  }
+
+  /* CSS Lists */
+  ul{
+    list-style-type: square;
+    list-style-position: inside;
+  }
+
+  /* CSS Table */
+  #table {
+    border: 1px solid;
+    color: red;
+    width:50%;
+    text-align:center;
+  }
+
+  /* CSS Responsive Table */
+  table {
+    border-collapse: collapse;
+    width: 200%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  /* CSS Display Inline */
+  .inline{
+  display: inline;
+  }
+/* CSS Display Block */
+span{
+    display: block;
+}
+
+/* CSS Max-Width */
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+  
+  div.ex2 {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+
+  /* Static Position Property */
+  div.static {
+    position: static;
+    border: 3px solid #73AD21;
+  }
+
+  /* Relative Position Properties */
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+  /* Fixed Position Property */
+  div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+  /* Absolute Position Property */
+  div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } 
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+
+  /* Sticky Position Property */
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  }
+
+ /* CSS Overflow */
+ #overflow{
+    width: 500px;
+    height:100px;
+    background-color: coral;
+    overflow: scroll;
+  }
+   /* CSS Float property */
+  /* Float Right property */
+  #pineapple {
+    float: right;
+  }
+  /* Float right property */
+  #left{
+    float: left;
+  }
+
+  /* CSS display inline, block and inline-block property */
+  span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+  }
+  
+  span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+  
+  span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+
+  /* CSS align element */
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  /* CSS align image */
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* CSS Opacity */
+  /* Transparent image */
+  #transparent{
+    opacity: 0.5;
+  }
+  /* Transparent image hover opacity */
+  #bhutan{
+    opacity: 0.5;
+  }
+#bhutan:hover{
+  opacity: 1.0;
+}
+/* psuedo first child */
+p:first-child {
+  color: blue;
+}
+/* CSS vertical navigation bar */
+div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: 60px;
+  background-color: #dddddd;
+}
+/* CSS Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* CSS dropdown menu */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+/* CSS attribute seletor */
+a[target] {
+  background-color: yellow;
+}
+
+/* CSS animated search form */
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+/* CSS The !important rule */
+#myid {
+  background-color: blue;
+}
+
+.myclass {
+  background-color: gray;
+}
+
+#para {
+  background-color:#73AD21 !important;
+} 
+/* CSS border corner */
+#bodercorner{
+  border-radius:10px 15px 5px 10px;
+  height:100px;
+  width: 100px;
+  background-color: #4CAF50;
+}
+/* CSS Border Image */
+#borderimg { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
+/* Multiple Background Image */
+#background{
+  background-image: url("/123.jpg"), url("/456.png");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+
+}
+/* CSS text shadow */
+#shadow{
+  text-shadow: 5px 3px blue;
+}
+/* CSS Writing Mode */
+p.test1 {
+  writing-mode: horizontal-tb; 
+}
+
+span.test2 {
+  writing-mode: vertical-rl; 
+}
+
+p.test2 {
+  writing-mode: vertical-rl; 
+}
+/* CSS Web font */
+#font {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+#webfont{
+  font-family: myFirstFont;
+}
+/* tHank you */
+#huh{
+  text-align: center;
+  color: purple;
+}
